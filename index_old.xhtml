@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE
+    html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+	<head>
+		<title>DeWitt Middle School Library</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<script type="text/javascript" src="index.js"></script>
+	</head>
+	<body onload="load()">
+		<div class="header">
+			<a href="fun.html">Fun Stuff</a>
+			<a href="onlineresources.html">Research Resources</a>
+                        <a href="http://j.mp/op7IgT">Library Catalog</a>
+                        <a href="#" onclick="return false">Family Resources</a>
+                        <a href="TEACHINGRESOURCES/staff.htm">Teaching Resources</a>
+		</div>
+		<div class="title">
+			DeWitt Middle School Library
+		</div>
+		<div id="resources">
+			Resources by subject
+			<select onchange="load()" id="subject">
+				<option selected>Choose a subject</option>
+				<option value="classresources/art.json">Art</option>
+				<option value="classresources/computers.json">Computers</option>
+				<option value="classresources/english.json">English</option>
+				<option value="classresources/esol.json">ESOL</option>
+				<option value="classresources/fcs.json">FCS and Health</option>
+				<option value="classresources/math.json">Mathematics</option>
+				<option value="classresources/science.json">Science</option>
+				<option value="classresources/socialstudies.json">Social Studies</option>
+				<option value="classresources/languages.json">World Languages</option>
+			</select>
+			<div id="items">
+			</div>
+		</div>
+		<div class="links">
+			<span><a href="/dewitt">Dewitt Homepage<img src="images/tiger.jpg" alt="Tiger" /></a></span>
+			<span><a href="about.htm">About Our Library</a></span>
+			<span><a href="/helpdesk"><img src="images/helpdesk.gif" alt="" />Technology HelpDesk</a></span>
+			<br />
+			<span><a href="/">
+				<img src="images/ICSD.jpg" alt=""/><br />
+				ICSD Homepage
+			</a></span>
+                        <span><a href="https://exmail.icsd.k12.ny.us/owa/">
+                                <img src="images/Exmail.jpg" alt="" /><br />
+                                ICSD Webmail
+                        </a></span>
+                        <span><a href="http://icsbb.ocmboces.org/">
+                                <img src="images/Blackboard.jpg" alt="" /><br />
+                                Blackboard
+                        </a></span>
+                        <span><a href="https://ithaca.schooltool.cnyric.org/schooltoolweb/">
+                                <img src="images/SchoolTool.jpg" alt="" /><br />
+                                SchoolTool
+                        </a></span>
+                        <span><a href="http://www.labandresourcescheduler.com/Default.aspx">
+                                <img src="images/Calendar.gif" alt="" /><br />
+                                Calendar
+                        </a></span>
+
+		</div>
+		<!-- End header -->
+		
+
+	</body>
+</html>

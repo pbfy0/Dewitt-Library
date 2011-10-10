@@ -1,0 +1,32 @@
+body {
+	font-size: 1.2em;
+	background-color: #ffc;
+	font-family: Arial, Helvetice, sans-serif;
+	text-align:center;
+}
+div.header a {
+	margin: 5px;
+	white-space: nowrap;
+
+}
+div.header {
+	border: 2px solid black;
+}
+div.title {
+	font-size: 2em;	
+}
+#resources {
+	border-style: double;
+}
+.links span{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+img {
+	vertical-align: middle;
+}
+#subject {
+	display: none;
+}

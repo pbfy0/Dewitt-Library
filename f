@@ -1,0 +1,14 @@
+[0m[01;35mBlackboard.jpg[0m
+[01;35mCalendar.gif[0m
+[01;34mclassresources[0m
+dl.css
+dl.js
+dl_old.js
+dl.xhtml
+[01;35mExmail.jpg[0m
+f
+[01;35mhelpdesk.gif[0m
+[01;35mICSD.jpg[0m
+[01;34mimages[0m
+[01;35mSchoolTool.jpg[0m
+[01;35mtiger.jpg[0m
